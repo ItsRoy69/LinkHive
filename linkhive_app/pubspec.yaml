@@ -1,0 +1,55 @@
+name: linkhive_app
+description: A personal link management application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.4.0
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  
+  # UI Components
+  cached_network_image: ^3.3.0
+  flutter_slidable: ^3.0.1
+  url_launcher: ^6.2.2
+  
+  # Clipboard & Share
+  receive_sharing_intent: ^1.5.3
+  clipboard_watcher: ^0.2.0
+  
+  # Notifications
+  flutter_local_notifications: ^16.3.0
+  
+  # Utils
+  intl: ^0.18.1
+  uuid: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # assets:
+  #   - images/
+  
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
